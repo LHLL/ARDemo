@@ -1,0 +1,1253 @@
+{
+    "wmsapi/consumers/v1/consumers/[a-zA-Z0-9]*/offers?facilityId=[a-zA-Z0-9]*":
+    {"body":[{
+     "offers": {
+     "offerId": 70,
+     "offerName": "Wow",
+     "offerDescription": "Test offer",
+     "promoCode": "Wow45",
+     "offerDetails": {
+     "offerRules": {
+     "totalRedeemLimit": 9999999,
+     "individualRedeemLimit": 1234,
+     "transactionLimit": 40,
+     "minPurchaseLimit": 45,
+     "combinable": "Y"
+     },
+     "offerType": {
+     "type": "PERCENT OFF",
+     "dollarPercentageOff": 45,
+     "dollarAmountOff": null,
+     "punchCardNumber": null,
+     "loyaltyPoints": null
+     },
+     "associatedProduct": [{
+                           "productId": 935,
+                           "productName": null
+                           }, {
+                           "productId": 2089,
+                           "productName": null
+                           }],
+     "imageURL": null
+     }
+     },
+     "consumerOfferId": 2
+     }, {
+     "offers": {
+     "offerId": 70,
+     "offerName": "Wow",
+     "offerDescription": "Test offer",
+     "promoCode": "Wow45",
+     "offerDetails": {
+     "offerRules": {
+     "totalRedeemLimit": 9999999,
+     "individualRedeemLimit": 1234,
+     "transactionLimit": 40,
+     "minPurchaseLimit": 45,
+     "combinable": "Y"
+     },
+     "offerType": {
+     "type": "PERCENT OFF",
+     "dollarPercentageOff": 45,
+     "dollarAmountOff": null,
+     "punchCardNumber": null,
+     "loyaltyPoints": null
+     },
+     "associatedProduct": [{
+                           "productId": 935,
+                           "productName": null
+                           }, {
+                           "productId": 2089,
+                           "productName": null
+                           }],
+     "imageURL": "http://www.123sds.nl/categories/0000-0000.jpg"
+     }
+     },
+     "consumerOfferId": 1
+    }]},
+    
+    "wmsapi/consumers/v1/consumers/[a-zA-Z0-9]*/offers/[a-zA-Z0-9]*":
+    {"body":{
+        "offerCode": "string",
+        "offer": {
+            "offerId": 0,
+            "offerName": "string",
+            "offerDescription": "string",
+            "promoCode": "string",
+            "offerDetails": {
+                "offerRules": {
+                    "individualRedeemLimit": 0,
+                    "transactionLimit": 0,
+                    "minPurchaseLimit": 0,
+                    "combinable": false
+                },
+                "offerType": {
+                    "type": "Percentage Off",
+                    "dollarPercentageOff": 0,
+                    "dollarAmountOff": 0,
+                    "punchCardNumber": 0,
+                    "loyaltyPoints": 0
+                },
+                "associatedProducts": [{
+                                       "productName": "string",
+                                       "productId": 0
+                                       }],
+                "imageURL": "http://www.123sds.nl/categories/0000-0000.jpg"
+            }
+        }
+    }},
+    
+    "wmsapi/consumers/v1/consumer/[a-zA-Z0-9]*/authenticate":
+    {"body":{
+        "result":true,
+        "errorList":null,
+        "success":true,
+        "consumers":[
+                     {
+                     "preferEmailFlag":"1",
+                     "expiresDate":null,
+                     "ageRangeTypeCode":3,
+                     "createdOn":"05/26/16 10:44 PM",
+                     "educationTypeCode":5,
+                     "maritalStatusTypeCode":2,
+                     "modifiedOn":"05/26/16 10:44 PM",
+                     "wellsFargoId":0,
+                     "consumerMerchantType":[
+                                             {
+                                             "consumerMerchantTypeId":27893,
+                                             "merchantType":{
+                                             "sortOrder":32,
+                                             "description":"Women's Specialty",
+                                             "merchantTypeCode":32,
+                                             "activeFlag":"Y"
+                                             },
+                                             "activeFlag":"Y"
+                                             }
+                                             ],
+                     "occupationOther":null,
+                     "modifiedBy":"unknown",
+                     "company":[
+                                {
+                                "companyId":371
+                                }
+                                ],
+                     "birthMonthDay":"0526",
+                     "activeFlag":"Y",
+                     "consumerId":9329,
+                     "consumerTypeCode":1,
+                     "genderTypeCode":1,
+                     "lockedDate":null,
+                     "occupationTypeCode":4,
+                     "preferAppFlag":"1",
+                     "passwordChangeFlag":"N",
+                     "userId":"freeda99",
+                     "incomeRangeTypeCode":5,
+                     "contactList":[
+                                    {
+                                    "lastName":"jass",
+                                    "address":[
+                                               {
+                                               "city":"san ramon",
+                                               "postalCode":"94582",
+                                               "createdOn":"05/26/16 10:44 PM",
+                                               "addressId":18459,
+                                               "modifiedOn":"08/01/16 09:29 PM",
+                                               "createdBy":"unknown",
+                                               "countryCode":"US",
+                                               "addressLine1":"san francisco",
+                                               "addressLine2":null,
+                                               "stateCode":"CA",
+                                               "modifiedBy":"unknown",
+                                               "addressLine3":null,
+                                               "activeFlag":"Y"
+                                               }
+                                               ],
+                                    "contactTypeCode":1,
+                                    "contactId":37017,
+                                    "preferenceTypeCode":1,
+                                    "suffix":null,
+                                    "createdOn":"05/26/16 10:44 PM",
+                                    "firstName":"freeda",
+                                    "modifiedOn":"08/01/16 09:29 PM",
+                                    "createdBy":"unknown",
+                                    "phone":[
+                                             {
+                                             "modifiedOn":"05/26/16 10:44 PM",
+                                             "phoneNumber":"1234567890",
+                                             "createdBy":"unknown",
+                                             "modifiedBy":"unknown",
+                                             "phoneNumberId":18099,
+                                             "createdOn":"05/26/16 10:44 PM",
+                                             "confirmedFlag":"Y",
+                                             "activeFlag":"Y"
+                                             }
+                                             ],
+                                    "middleName":null,
+                                    "modifiedBy":"unknown",
+                                    "email":[
+                                             {
+                                             "emailAddress":"freeda.j.santorkodi@wellsfargo.com",
+                                             "modifiedOn":"05/26/16 10:44 PM",
+                                             "createdBy":"unknown",
+                                             "emailAddressId":18339,
+                                             "modifiedBy":"unknown",
+                                             "createdOn":"05/26/16 10:44 PM",
+                                             "confirmedFlag":"Y",
+                                             "activeFlag":"Y"
+                                             }
+                                             ],
+                                    "activeFlag":"Y"
+                                    }
+                                    ],
+                     "createdBy":"unknown",
+                     "accountStatusCode":1,
+                     "preferSmsFlag":"0",
+                     "consumerGroup":[
+                                      {  
+                                      "consumerGroupId":17841,
+                                      "consumerGroupType":{  
+                                      "sortOrder":1,
+                                      "description":"FoodLover",
+                                      "groupCode":1,
+                                      "activeFlag":"Y"
+                                      },
+                                      "activeFlag":"Y"
+                                      },
+                                      {  
+                                      "consumerGroupId":17842,
+                                      "consumerGroupType":{  
+                                      "sortOrder":2,
+                                      "description":"MusicLover",
+                                      "groupCode":2,
+                                      "activeFlag":"Y"
+                                      },
+                                      "activeFlag":"Y"
+                                      },
+                                      {  
+                                      "consumerGroupId":17843,
+                                      "consumerGroupType":{  
+                                      "sortOrder":3,
+                                      "description":"CoffeeLover",
+                                      "groupCode":3,
+                                      "activeFlag":"Y"
+                                      },
+                                      "activeFlag":"Y"
+                                      },
+                                      {  
+                                      "consumerGroupId":17844,
+                                      "consumerGroupType":{  
+                                      "sortOrder":4,
+                                      "description":"BookLover",
+                                      "groupCode":4,
+                                      "activeFlag":"Y"
+                                      },
+                                      "activeFlag":"Y"
+                                      }
+                                      ]
+                     }
+                     ],
+        "status":"SUCCESS"
+    }},
+    
+    "wmsapi/consumers/v1/consumer/[a-zA-Z0-9]*/balance/loyalty":
+    {"body":{
+        "result":true,
+        "consumerRs":[
+                      {
+                      "preferEmailFlag":null,
+                      "loyaltyConsumerStatusResponse":[
+                                                       {
+                                                       "loyaltyCategoryId":42,
+                                                       "description":"Silver"
+                                                       }
+                                                       ],
+                      "expiresDate":null,
+                      "ageRangeTypeCode":0,
+                      "createdOn":null,
+                      "loyaltyPoints":600,
+                      "educationTypeCode":0,
+                      "maritalStatusTypeCode":0,
+                      "modifiedOn":null,
+                      "wellsFargoId":null,
+                      "consumerMerchantType":null,
+                      "occupationOther":null,
+                      "modifiedBy":null,
+                      "birthMonthDay":null,
+                      "activeFlag":null,
+                      "consumerId":null,
+                      "consumerTypeCode":0,
+                      "genderTypeCode":0,
+                      "lockedDate":null,
+                      "occupationTypeCode":0,
+                      "preferAppFlag":null,
+                      "passwordChangeFlag":null,
+                      "userId":null,
+                      "incomeRangeTypeCode":0,
+                      "contactList":null,
+                      "createdBy":null,
+                      "accountStatusCode":null,
+                      "preferSmsFlag":null,
+                      "consumerGroup":null
+                      }
+                      ],
+        "success":true,
+        "errorList":null,
+        "status":"SUCCESS"
+    }},
+    
+    "wmsapi/consumers/v1/consumer":
+    {"body":{
+        "result":true,
+        "errorList":null,
+        "success":true,
+        "consumers":{
+            "consumerId":13554
+        },
+        "status":"SUCCESS"
+    }},
+    
+    "wmsapi/consumers/v1/data":
+    {"body":{
+        "result":true,
+        "consumerRs":{
+            "country":[
+                       {
+                       "countryCode":"IN",
+                       "sortOrder":1,
+                       "description":"India",
+                       "activeFlag":"Y"
+                       },
+                       {
+                       "countryCode":"ID",
+                       "sortOrder":2,
+                       "description":"Indonesia",
+                       "activeFlag":"Y"
+                       },
+                       {
+                       "countryCode":"US",
+                       "sortOrder":1,
+                       "description":"United States",
+                       "activeFlag":"Y"
+                       }
+                       ],
+            "educationTypes":[
+                              {
+                              "sortOrder":1,
+                              "description":"Completed some high school",
+                              "educationTypeCode":1,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":2,
+                              "description":"High school graduate",
+                              "educationTypeCode":2,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":3,
+                              "description":"Completed some college",
+                              "educationTypeCode":3,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":4,
+                              "description":"Associate degree",
+                              "educationTypeCode":4,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":5,
+                              "description":"Bachelor's degree",
+                              "educationTypeCode":5,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":6,
+                              "description":"Completed some postgraduate",
+                              "educationTypeCode":6,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":7,
+                              "description":"Master's degree",
+                              "educationTypeCode":7,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":8,
+                              "description":"Ph.D., law or medical degree",
+                              "educationTypeCode":8,
+                              "activeFlag":"Y"
+                              },
+                              {
+                              "sortOrder":9,
+                              "description":"Other advanced degree",
+                              "educationTypeCode":9,
+                              "activeFlag":"Y"
+                              }
+                              ],
+            "incomeRangeTypes":[
+                                {
+                                "incomeRangeTypeCode":1,
+                                "sortOrder":1,
+                                "description":"Less than $25,000",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":2,
+                                "sortOrder":2,
+                                "description":"$25,000 to $34,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":3,
+                                "sortOrder":3,
+                                "description":"$35,000 to $49,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":4,
+                                "sortOrder":4,
+                                "description":"$50,000 to $74,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":5,
+                                "sortOrder":5,
+                                "description":"$75,000 to $99,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":6,
+                                "sortOrder":6,
+                                "description":"$100,000 to $149,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":7,
+                                "sortOrder":7,
+                                "description":"$150,000 to $199,999",
+                                "activeFlag":"Y"
+                                },
+                                {
+                                "incomeRangeTypeCode":8,
+                                "sortOrder":8,
+                                "description":"$200,000 or more",
+                                "activeFlag":"Y"
+                                }
+                                ],
+            "merchantTypes":[
+                             {
+                             "sortOrder":1,
+                             "description":"Accessories",
+                             "merchantTypeCode":1,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":2,
+                             "description":"Auto Displays",
+                             "merchantTypeCode":2,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":3,
+                             "description":"Business Offices",
+                             "merchantTypeCode":3,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":4,
+                             "description":"Cards,Books,Gifts & Stationery",
+                             "merchantTypeCode":4,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":5,
+                             "description":"Children's & Infant Fashions",
+                             "merchantTypeCode":5,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":6,
+                             "description":"Cigars & Tobacco",
+                             "merchantTypeCode":6,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":7,
+                             "description":"Department Stores & Anchors",
+                             "merchantTypeCode":7,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":8,
+                             "description":"Drug Stores",
+                             "merchantTypeCode":8,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":9,
+                             "description":"Electronics & Technology",
+                             "merchantTypeCode":9,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":10,
+                             "description":"Health, Bath & Beauty",
+                             "merchantTypeCode":10,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":11,
+                             "description":"Home Décor",
+                             "merchantTypeCode":11,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":12,
+                             "description":"Home Furnishings",
+                             "merchantTypeCode":12,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":13,
+                             "description":"Jewelry & Watches",
+                             "merchantTypeCode":13,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":14,
+                             "description":"Luggage",
+                             "merchantTypeCode":14,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":15,
+                             "description":"Men's & Women's Fashions",
+                             "merchantTypeCode":15,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":16,
+                             "description":"Men's Fashions",
+                             "merchantTypeCode":16,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":17,
+                             "description":"Men's Specialty",
+                             "merchantTypeCode":17,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":18,
+                             "description":"Miscellaneous",
+                             "merchantTypeCode":18,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":19,
+                             "description":"Music & Movies",
+                             "merchantTypeCode":19,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":20,
+                             "description":"Photography & Printing",
+                             "merchantTypeCode":20,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":21,
+                             "description":"Restaurants",
+                             "merchantTypeCode":21,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":22,
+                             "description":"Services",
+                             "merchantTypeCode":22,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":23,
+                             "description":"Shoes & Footwear",
+                             "merchantTypeCode":23,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":24,
+                             "description":"Specialty & Gourmet Foods",
+                             "merchantTypeCode":24,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":25,
+                             "description":"Specialty Shops",
+                             "merchantTypeCode":25,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":26,
+                             "description":"Sporting Goods & Athletic Wear",
+                             "merchantTypeCode":26,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":27,
+                             "description":"Sunglasses, Optical & Eywear",
+                             "merchantTypeCode":27,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":28,
+                             "description":"Teen's Fashions",
+                             "merchantTypeCode":28,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":29,
+                             "description":"Toys, Games & Hobbies",
+                             "merchantTypeCode":29,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":30,
+                             "description":"Variety",
+                             "merchantTypeCode":30,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":31,
+                             "description":"Women's Fashions",
+                             "merchantTypeCode":31,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":32,
+                             "description":"Women's Specialty",
+                             "merchantTypeCode":32,
+                             "activeFlag":"Y"
+                             }
+                             ],
+            "maritalStatusTypes":[
+                                  {
+                                  "maritalStatusTypeCode":1,
+                                  "sortOrder":1,
+                                  "description":"Single [never married]",
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "maritalStatusTypeCode":2,
+                                  "sortOrder":2,
+                                  "description":"Married",
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "maritalStatusTypeCode":3,
+                                  "sortOrder":3,
+                                  "description":"Separated",
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "maritalStatusTypeCode":4,
+                                  "sortOrder":4,
+                                  "description":"Widowed",
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "maritalStatusTypeCode":5,
+                                  "sortOrder":5,
+                                  "description":"Divorced",
+                                  "activeFlag":"Y"
+                                  }
+                                  ],
+            "ageRangeTypes":[
+                             {
+                             "sortOrder":1,
+                             "description":"Under 18 years",
+                             "ageRangeTypeCode":1,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":2,
+                             "description":"18 to 24 years",
+                             "ageRangeTypeCode":2,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":3,
+                             "description":"25 to 34 years",
+                             "ageRangeTypeCode":3,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":4,
+                             "description":"35 to 44 years",
+                             "ageRangeTypeCode":4,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":5,
+                             "description":"45 to 54 years",
+                             "ageRangeTypeCode":5,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":6,
+                             "description":"55 to 64 years",
+                             "ageRangeTypeCode":6,
+                             "activeFlag":"Y"
+                             },
+                             {
+                             "sortOrder":7,
+                             "description":"Age 65 or older",
+                             "ageRangeTypeCode":7,
+                             "activeFlag":"Y"
+                             }
+                             ],
+            "genderTypes":[
+                           {
+                           "genderTypeCode":1,
+                           "sortOrder":1,
+                           "description":"Female",
+                           "activeFlag":"Y"
+                           },
+                           {
+                           "genderTypeCode":2,
+                           "sortOrder":2,
+                           "description":"Male",
+                           "activeFlag":"Y"
+                           }
+                           ],
+            "occupationTypes":[
+                               {
+                               "sortOrder":2,
+                               "description":"For profit",
+                               "occupationTypeCode":1,
+                               "activeFlag":"Y"
+                               },
+                               {
+                               "sortOrder":5,
+                               "description":"Non-profit [religious, social assistance, etc.]",
+                               "occupationTypeCode":2,
+                               "activeFlag":"Y"
+                               },
+                               {
+                               "sortOrder":3,
+                               "description":"Government",
+                               "occupationTypeCode":3,
+                               "activeFlag":"Y"
+                               },
+                               {
+                               "sortOrder":4,
+                               "description":"Health Care",
+                               "occupationTypeCode":4,
+                               "activeFlag":"Y"
+                               },
+                               {
+                               "sortOrder":1,
+                               "description":"Education",
+                               "occupationTypeCode":5,
+                               "activeFlag":"Y"
+                               },
+                               {
+                               "sortOrder":6,
+                               "description":"Other",
+                               "occupationTypeCode":6,
+                               "activeFlag":"Y"
+                               }
+                               ],
+            "consumerGroupTypes":[
+                                  {
+                                  "sortOrder":1,
+                                  "description":"FoodLover",
+                                  "groupCode":1,
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "sortOrder":2,
+                                  "description":"MusicLover",
+                                  "groupCode":2,
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "sortOrder":3,
+                                  "description":"CoffeeLover",
+                                  "groupCode":3,
+                                  "activeFlag":"Y"
+                                  },
+                                  {
+                                  "sortOrder":4,
+                                  "description":"BookLover",
+                                  "groupCode":4,
+                                  "activeFlag":"Y"
+                                  }
+                                  ],
+            "states":[
+                      {
+                      "sortOrder":2,
+                      "description":"Alaska",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"AK"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":1,
+                      "description":"Alabama",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"AL"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":4,
+                      "description":"Arkansas",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"AR"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":3,
+                      "description":"Arizona",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"AZ"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":5,
+                      "description":"California",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"CA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":6,
+                      "description":"Colorado",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"CO"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":7,
+                      "description":"Connecticut",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"CT"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":8,
+                      "description":"Washington DC",
+                      "id":{
+                      "countryCode":"US",
+                      "stateCode":"DC"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {
+                      "sortOrder":9,
+                      "description":"Delaware",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"DE"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":10,
+                      "description":"Florida",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"FL"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":11,
+                      "description":"Georgia",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"GA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":12,
+                      "description":"Hawaii",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"HI"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":16,
+                      "description":"Iowa",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"IA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":13,
+                      "description":"Idaho",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"ID"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":14,
+                      "description":"Illinois",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"IL"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":15,
+                      "description":"Indiana",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"IN"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":17,
+                      "description":"Kansas",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"KS"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":18,
+                      "description":"Kentucky",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"KY"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":19,
+                      "description":"Louisiana",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"LA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":22,
+                      "description":"Massachusetts",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":21,
+                      "description":"Maryland",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MD"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":20,
+                      "description":"Maine",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"ME"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":23,
+                      "description":"Michigan",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MI"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":24,
+                      "description":"Minnesota",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MN"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":26,
+                      "description":"Missouri",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MO"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":25,
+                      "description":"Mississippi",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MS"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":27,
+                      "description":"Montana",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"MT"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":34,
+                      "description":"North Carolina",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NC"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":35,
+                      "description":"North Dakota",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"ND"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":28,
+                      "description":"Nebraska",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NE"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":30,
+                      "description":"New Hampshire",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NH"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":31,
+                      "description":"New Jersey",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NJ"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":32,
+                      "description":"New Mexico",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NM"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":29,
+                      "description":"Nevada",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NV"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":33,
+                      "description":"New York",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"NY"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":36,
+                      "description":"Ohio",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"OH"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":37,
+                      "description":"Oklahoma",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"OK"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":38,
+                      "description":"Oregon",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"OR"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":39,
+                      "description":"Pennsylvania",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"PA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":40,
+                      "description":"Rhode Island",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"RI"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":41,
+                      "description":"South Carolina",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"SC"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":42,
+                      "description":"South Dakota",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"SD"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":43,
+                      "description":"Tennessee",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"TN"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":44,
+                      "description":"Texas",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"TX"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":45,
+                      "description":"Utah",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"UT"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":47,
+                      "description":"Virginia",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"VA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":46,
+                      "description":"Vermont",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"VT"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":48,
+                      "description":"Washington",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"WA"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":50,
+                      "description":"Wisconsin",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"WI"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":49,
+                      "description":"West Virginia",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"WV"
+                      },
+                      "activeFlag":"Y"
+                      },
+                      {  
+                      "sortOrder":51,
+                      "description":"Wyoming",
+                      "id":{  
+                      "countryCode":"US",
+                      "stateCode":"WY"
+                      },
+                      "activeFlag":"Y"
+                      }
+                      ]
+        },
+        "success":true,
+        "errorList":null,
+        "status":"SUCCESS"
+    }}
+}

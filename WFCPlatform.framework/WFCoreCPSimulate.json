@@ -1,0 +1,22 @@
+{
+    "wmsapi/device/getToken":
+    {
+        "body":
+        {
+            "deviceTokenRs":
+            {
+                "deviceToken":"FA163E2060D30LOC123485703041987f6b8"
+            },
+            "status":"SUCCESS"
+        }
+    },
+    
+    "wmsapi/consumers/v1/consumer/[a-zA-Z0-9]*/event":
+    {
+        "statusCode":201,
+        "body":
+        {
+            "status":"SUCCESS"
+        }
+    }
+}

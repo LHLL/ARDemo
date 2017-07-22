@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "eb5a283e-fa3a-4c50-a73f-84701490dc7d++4256",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "eb5a283e-fa3a-4c50-a73f-84701490dc7d++4256" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "eb5a283e-fa3a-4c50-a73f-84701490dc7d++4256" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "641E932B-104E-47A6-A2D9-C3BB94212A78",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "eb5a283e-fa3a-4c50-a73f-84701490dc7d++4256" : "NSC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NSC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "nsc_swift\/NSC\/NSC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/wts-svn.wellsfargo.com\/wet",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "eb5a283e-fa3a-4c50-a73f-84701490dc7d++4256"
+    }
+  ]
+}
